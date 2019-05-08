@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"],
+	beego.GlobalControllerRouter["beeapi/controllers:AddressesController"] = append(beego.GlobalControllerRouter["beeapi/controllers:AddressesController"],
 		beego.ControllerComments{
 			Method:           "Post",
 			Router:           `/`,
@@ -16,7 +16,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"],
+	beego.GlobalControllerRouter["beeapi/controllers:AddressesController"] = append(beego.GlobalControllerRouter["beeapi/controllers:AddressesController"],
 		beego.ControllerComments{
 			Method:           "GetAll",
 			Router:           `/`,
@@ -25,7 +25,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"],
+	beego.GlobalControllerRouter["beeapi/controllers:AddressesController"] = append(beego.GlobalControllerRouter["beeapi/controllers:AddressesController"],
 		beego.ControllerComments{
 			Method:           "GetOne",
 			Router:           `/:id`,
@@ -34,7 +34,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"],
+	beego.GlobalControllerRouter["beeapi/controllers:AddressesController"] = append(beego.GlobalControllerRouter["beeapi/controllers:AddressesController"],
 		beego.ControllerComments{
 			Method:           "Put",
 			Router:           `/:id`,
@@ -43,7 +43,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:AddressesController"],
+	beego.GlobalControllerRouter["beeapi/controllers:AddressesController"] = append(beego.GlobalControllerRouter["beeapi/controllers:AddressesController"],
 		beego.ControllerComments{
 			Method:           "Delete",
 			Router:           `/:id`,
@@ -52,7 +52,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"],
+	beego.GlobalControllerRouter["beeapi/controllers:PersonsController"] = append(beego.GlobalControllerRouter["beeapi/controllers:PersonsController"],
 		beego.ControllerComments{
 			Method:           "Post",
 			Router:           `/`,
@@ -61,7 +61,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"],
+	beego.GlobalControllerRouter["beeapi/controllers:PersonsController"] = append(beego.GlobalControllerRouter["beeapi/controllers:PersonsController"],
 		beego.ControllerComments{
 			Method:           "GetAll",
 			Router:           `/`,
@@ -70,7 +70,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"],
+	beego.GlobalControllerRouter["beeapi/controllers:PersonsController"] = append(beego.GlobalControllerRouter["beeapi/controllers:PersonsController"],
 		beego.ControllerComments{
 			Method:           "GetOne",
 			Router:           `/:id`,
@@ -79,7 +79,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"],
+	beego.GlobalControllerRouter["beeapi/controllers:PersonsController"] = append(beego.GlobalControllerRouter["beeapi/controllers:PersonsController"],
 		beego.ControllerComments{
 			Method:           "Put",
 			Router:           `/:id`,
@@ -88,7 +88,7 @@ func init() {
 			Filters:          nil,
 			Params:           nil})
 
-	beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"] = append(beego.GlobalControllerRouter["3s/test/new/controllers:PersonsController"],
+	beego.GlobalControllerRouter["beeapi/controllers:PersonsController"] = append(beego.GlobalControllerRouter["beeapi/controllers:PersonsController"],
 		beego.ControllerComments{
 			Method:           "Delete",
 			Router:           `/:id`,

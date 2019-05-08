@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "3s/test/new/routers"
+	_ "beeapi/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"

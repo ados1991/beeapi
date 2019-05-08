@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"3s/test/new/models"
+	"beeapi/models"
 	"encoding/json"
 	"errors"
 	"strconv"
